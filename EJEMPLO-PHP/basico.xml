@@ -7,7 +7,7 @@
     <cfdi:Emisor Rfc="LAN8507268IA" Nombre="MB IDEAS DIGITALES SC" RegimenFiscal="612" />
     <cfdi:Receptor Rfc="AAA010101AAA" Nombre="SW SMARTERWEB PRUEBA" UsoCFDI="G03" />
     <cfdi:Conceptos>
-        <cfdi:Concepto ClaveProdServ="50211503" NoIdentificacion="UT421511" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Cigarros" ValorUnitario="200.00" Importe="200.00">
+        <cfdi:Concepto ClaveProdServ="50211503" NoIdentificacion="UT421511" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="BIMBUÑUELOS BIMBO" ValorUnitario="200.00" Importe="200.00">
             <cfdi:Impuestos>
                 <cfdi:Traslados>
                     <cfdi:Traslado Base="200.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="32.00" />

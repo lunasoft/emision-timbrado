@@ -121,12 +121,8 @@ use SWServices\Stamp\StampService as StampService;
         );
     
     $stamp = StampService::Set($params);
-    $result = $stamp::StampV1($sellado);
-    if($result->status != "success"){
-        echo json_encode(array('cadena'=>$cadena,'final'=>$cfdi_final,'noCertificado'=>$serialNumber,'sello'=>$sellado,'b64cer'=>$b4cer,"error"=>$result));
-    }else{
-        echo json_encode($result);
-    }
+    $result = $stamp::StampV3($sellado);
+    echo json_encode($result);
     
     
 
