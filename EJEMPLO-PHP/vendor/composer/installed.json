@@ -1,0 +1,54 @@
+[
+    {
+        "name": "lunasoft/sw-sdk-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lunasoft/sw-sdk-php.git",
+            "reference": "f76da43242115ff1e6ebd51f0efb4d13010805f8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lunasoft/sw-sdk-php/zipball/f76da43242115ff1e6ebd51f0efb4d13010805f8",
+            "reference": "f76da43242115ff1e6ebd51f0efb4d13010805f8",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7"
+        },
+        "time": "2017-08-04T14:39:11+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "SWServices\\": "SWServices/",
+                "tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rich Barusta",
+                "email": "ricardo.barusta@sw.com.mx"
+            },
+            {
+                "name": "Alex Ramos",
+                "email": "alejandro.ramos@sw.com.mx"
+            },
+            {
+                "name": "Heltton Ramirez",
+                "email": "heltton.ramirez@sw.com.mx"
+            },
+            {
+                "name": "Flavio Ochoa",
+                "email": "flavio.ochoa@sw.com.mx"
+            }
+        ],
+        "description": "PHP Library for SW Services",
+        "homepage": "https://github.com/lunasoft/sw-sdk-php"
+    }
+]
